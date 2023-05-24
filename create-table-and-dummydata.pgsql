@@ -1,6 +1,5 @@
 -- Create
 
--- Kommentar: Muss man integer bei Primary angeben bei Serial?
 CREATE TABLE "User" (
     user_id SERIAL NOT NULL PRIMARY KEY,
     user_name VARCHAR(255) NOT NULL,
